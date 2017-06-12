@@ -3,10 +3,8 @@ from fizzbuzz import FizzBuzz
 
 class TestFizzBuzz(unittest.TestCase):
 
-    def test_FizzBuzz_1(self):
+    def test_FizzBuzz_not_multiples_of_15(self):
         self.assertEqual(FizzBuzz(1), 1)
-
-    def test_FizzBuzz_2(self):
         self.assertEqual(FizzBuzz(2), 2)
 
     def test_FizzBuzz_multiples_of_3(self):
