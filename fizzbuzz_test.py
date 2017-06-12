@@ -15,7 +15,7 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(FizzBuzz(5), "Buzz")
         self.assertEqual(FizzBuzz(10), "Buzz")
 
-    def test_FizzBuzz_15(self):
+    def test_FizzBuzz_multiples_of_15(self):
         self.assertEqual(FizzBuzz(15), "FizzBuzz")
         self.assertEqual(FizzBuzz(30), "FizzBuzz")
 
